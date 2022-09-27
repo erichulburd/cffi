@@ -44,7 +44,7 @@
 (pkg-config-cflags "libffi" :optional t)
 
 #+darwin
-(include "ffi/ffi.h")
+(include "ffi.h")
 #-darwin
 (include "ffi.h")
 
